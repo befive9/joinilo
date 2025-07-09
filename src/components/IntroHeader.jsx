@@ -36,7 +36,7 @@ export default function IntroHeader({ onFileChange }) {
         </ul>
       </div>
       <img
-        src="/joinilo/banner.png"
+        src="/banner.png"
         alt="배너"
         style={{
           width: "100%",
