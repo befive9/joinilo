@@ -544,6 +544,7 @@ function App() {
 
   // ===== 렌더링 =====
   return (
+     <>
     <div style={{ width: "100vw", minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", background: "#fafafe" }}>
       {LangDropdown}
       <IntroHeader onFileChange={handleFileChange} />
@@ -772,6 +773,26 @@ function App() {
         )}
       </div>
     </div>
+     <footer style={{
+        width: "100vw",
+        textAlign: "center",
+        fontSize: 14,
+        color: "#888",
+        padding: "1.5rem 0 1rem 0",
+        background: "transparent",
+        marginTop: 32
+      }}>
+        <a
+          href="https://docs.google.com/document/d/e/2PACX-1vTtflKl_LyP__VFyNFbmUlHtQ1mZH1VKAszepwd1hhSymA1_dqZ2HekmjhhIu7gNVgwFNQmiOzRbUKn/pub"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#2563eb", textDecoration: "underline" }}
+        >
+          Privacy Policy
+        </a>
+        &nbsp;|&nbsp; Contact: <a href="mailto:befive99@naver.com">befive99@naver.com</a>
+      </footer>
+       </>
   );
 }
 
