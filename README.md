@@ -32,3 +32,8 @@ cd joinilo
 npm install
 npm run dev    # 개발용
 npm run build  # 빌드 (dist 폴더 생성)
+
+## License
+
+© 2025 Jae Lee (Joinilo). All rights reserved.  
+This project is protected by copyright law. Unauthorized reproduction or redistribution is prohibited.
