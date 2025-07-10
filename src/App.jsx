@@ -773,25 +773,34 @@ function App() {
         )}
       </div>
     </div>
-     <footer style={{
-        width: "100vw",
-        textAlign: "center",
-        fontSize: 14,
-        color: "#888",
-        padding: "1.5rem 0 1rem 0",
-        background: "transparent",
-        marginTop: 32
-      }}>
-        <a
-          href="https://docs.google.com/document/d/e/2PACX-1vTtflKl_LyP__VFyNFbmUlHtQ1mZH1VKAszepwd1hhSymA1_dqZ2HekmjhhIu7gNVgwFNQmiOzRbUKn/pub"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#2563eb", textDecoration: "underline" }}
-        >
-          Privacy Policy
-        </a>
-        &nbsp;|&nbsp; Contact: <a href="mailto:befive99@naver.com">befive99@naver.com</a>
-      </footer>
+    <footer style={{
+  width: "100vw",
+  textAlign: "center",
+  fontSize: 14,
+  color: "#888",
+  padding: "1.5rem 0 1rem 0",
+  background: "transparent",
+  marginTop: 32
+}}>
+  <a
+    href="https://docs.google.com/document/d/e/2PACX-1vTtflKl_LyP__VFyNFbmUlHtQ1mZH1VKAszepwd1hhSymA1_dqZ2HekmjhhIu7gNVgwFNQmiOzRbUKn/pub"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "#2563eb", textDecoration: "underline" }}
+  >
+    Privacy Policy
+  </a>
+  &nbsp;|&nbsp;
+  <a
+    href="https://docs.google.com/document/d/e/2PACX-1vTSUOrfnVdcg7LE03jqY3ttuiOrwHHLhbKvLqSBdOnq1J0mzgPf5hCDJ1G21KxvTHRB_1sJkI9ZclP1/pub"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: "#2563eb", textDecoration: "underline" }}
+  >
+    Terms of Service
+  </a>
+  &nbsp;|&nbsp; Contact: <a href="mailto:befive99@naver.com">befive99@naver.com</a>
+</footer>
        </>
   );
 }
